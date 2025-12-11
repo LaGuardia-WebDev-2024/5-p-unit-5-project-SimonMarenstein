@@ -16,17 +16,92 @@ Select TWO Additional Features to Add
 
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+    <title>Holiday Party Invitation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* Feature: Linear Gradient */
+            background: linear-gradient(to bottom, #cfe9ff, #ffffff);
+        }
 
-  </style>
+        /* Main invitation card */
+        .invite-card {
+            width: 60%;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border: 4px solid red;
+            border-radius: 12px;
+        }
+
+        /* Title */
+        .title {
+            text-align: center;
+            font-size: 36;
+            color: darkred;
+            font-weight: bold;
+            margin-bottom: 20;
+        }
+
+        /* Flexbox row for images */
+        .image-row {
+            display: flex;              /* Feature: Flexbox */
+            justify-content: center;
+            gap: 20;
+            margin-top: 20;
+        }
+
+        .image-row img {
+            width: 150;
+            height: 150;
+            border: 3 solid green;
+            padding: 5;
+            border-radius: 10;
+        }
+
+        /* Text block */
+        .details {
+            font-size: 20;
+            text-align: center;
+            margin-top: 20;
+            padding: 10;
+        }
+
+        /* Example span usage */
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
 
- 
+<div class="invite-card">
+
+    <div class="title">🎄 Holiday Party Invitation 🎄</div>
+
+    <div class="details">
+        You're invited to our annual <span class="highlight">Winter Holiday Celebration!</span><br><br>
+
+        ❄️ **Date:** December 22nd, 2025<br>
+        🎁 **Time:** 6:00 PM – 10:00 PM<br>
+        🍪 **Location:** 45 Maple Lane Community Hall<br><br>
+
+        Join us for food, music, games, gifts, and tons of holiday fun!
+    </div>
+
+    <!-- Three Images -->
+    <div class="image-row">
+        <img src="https://cdn.abcotvs.com/dip/images/5096048_011819-cc-accuwx-perfect-snowman-tips-vid.jpg?w=992" alt="Snowman" height="40">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6hGnln5bByEtIhOmEioKAEh23CsM721la3P3tuC4xkQ&s=10" alt="Holiday Tree" height="40">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiR1XM3V-HF4ZcUNJNbkaqbNE04G7miaxDpfcnLoPQOQ&s=10" alt="Gift" height="40"
+    </div>
+
+</div>
 
 </body>
-</html>
+</html
